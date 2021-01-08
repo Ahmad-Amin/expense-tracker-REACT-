@@ -11,33 +11,39 @@
 </head>
 <body>
 
-    <div>
-        <h1 class="expenseHeading">Expense Tracker</h1>
-        <h2 class="BalnceHeading">Total Balance: <strong>$398.0</strong></h2>
-        <div class="clearFix"></div>
-    </div>
-    
-    <section class="his-transSection">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="historyBox">
-                    <h2>History</h2>
-                    <div class="historyDetails">
-                        <ul>
-                            <li>
-                                <div class="historyText"><h4>Cash</h4></div> 
-                                <div class="historyDetails"><h4 >$500</h4></div>
-                                
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-    
-            </div>
+    <section class="mainBody">
+
+        <h1>Expense Tracker</h1>
+
+        <div>
+            <p>Your Balance</p>
+            <h1>$290</h1>
         </div>
+    
+        <h3>History</h3>
+        <hr>
+    
+    
+        <h3>Add new transaction</h3>
+        <hr>
+    
+        <form>
+            <div class="form-group">
+                <label for="Text">Text: </label>
+                <input type="text" class="form-control" id="Text" placeholder="Enter Text...">
+            </div>
+            <div class="form-group">
+                <label for="amount">Amount: </label>
+                <input type="email" class="form-control" id="amount" aria-describedby="amountHelp" placeholder="Enter Amount...">
+                <small id="amountHelp" class="form-text text-muted">(Negative for expense, Positive for income)</small>
+            </div>
+            
+            <button type="submit" class="btn btn-primary submitButton">Add transaction</button>
+        </form>
     </section>
+
+    
+    
     
 </body>
 </html>

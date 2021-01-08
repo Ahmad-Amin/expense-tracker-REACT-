@@ -1,58 +1,14 @@
-body{
-    background-color: aqua;
-    font-family: 'Roboto', sans-serif;
-    padding: 50px;
+.mainBody{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #ccc;
+    padding: 25px;
+    font-family: "Roboto";
 }
 
-.expenseHeading{
-    float: left;
-    background-color: white;
-    padding: 10px 30px;
-    border-radius: 25px;
-    box-shadow: 5px 5px 13px rgba(0, 0, 0, 0.5);
-    font-size: 1.75rem;
-}
-.BalnceHeading{
-    float: right;
-    margin-right: 100px;
-    padding: 10px 30px;
-    background-color: white;
-    border-radius: 25px;
-    box-shadow: 5px 5px 13px rgba(0, 0, 0, 0.5);
-    font-size: 1.75rem;
-}
-.clearFix{
-    clear: both;
-}
-
-.historyBox{
-    background-color: white;
-    height: 450px;
-    overflow-y: scroll;
-    padding: 20px;
-}
-
-.historyBox h2::after{
-    content: "";
-    border: 1px solid black;
-    width: 50%;
+.submitButton{
     display: block;
-    margin-top: 10px;
-    background-color: black;
-    border-radius: 20px;
-}
-
-.his-transSection{
-    margin-top: 50px;    
-}
-
-.historyDetails ul{
-    list-style: none;
-}
-
-.historyText{
-    float: left;
-}
-.historyDetails{
-    float: right;
+    margin: 0 auto;
 }
